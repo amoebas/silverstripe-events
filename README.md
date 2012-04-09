@@ -1,8 +1,8 @@
-# Eventsystem
+# Event
 
 ## Description
 
-This is a pattern that can be used for implementing a Eventsystem that has a 
+This is a pattern that can be used for implementing a Event system that has a
 smaller footprint than using Decorators for notify other classes on for example 
 updates to DataObjects.
 
@@ -19,14 +19,11 @@ This can be avoided by letting individual controllers to listening on specific
 updates in the system and then taking appropriate actions based on what event was
 raised and what the event included.
 
-## How It Works
+## How it works and implementation
 
-@todo: write documentation
-
-## Specifications
-
-@todo: write documentation
+See docs/en/event-system.md or the Unittest
 
 ## Changelog
 
-v0.1 - Initial working implementation 
+	v0.1 - Initial working implementation
+	v1.0 - Updated the documentation
